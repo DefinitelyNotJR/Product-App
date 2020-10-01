@@ -1,27 +1,27 @@
-# ProductsFront
+## How to launch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+The only thing that needs to be checked is the port which will be used for dotnet core application. Ideally it should be localhost:5001 (or some adjustments will be needed to the Frond-end code.
 
-## Development server
+After checking the port, Dotnet core server can be launched with **`dotnet run`** command, angular application can be launched with **`ng serve`**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How it works
 
-## Code scaffolding
+**Products** page:
+![Products](https://github.com/DefinitelyNotJR/Product-App/blob/master/Examples/ProductsPage.PNG?raw=true)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+As you can see, **filtering** works too. 
+![ProductFiltering](https://github.com/DefinitelyNotJR/Product-App/blob/master/Examples/ProductsFiltering.PNG?raw=true)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+After clicking on a product a user is redirected on a **product page**.
+![ProductById](https://github.com/DefinitelyNotJR/Product-App/blob/master/Examples/ProductById.PNG?raw=true)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+**Cart page.**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![Cart](https://github.com/DefinitelyNotJR/Product-App/blob/master/Examples/Cart.PNG?raw=true)
 
-## Further help
+Sadly, haven't managed to do all the functionality in time. So it now only shows prerendered data.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
