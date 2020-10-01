@@ -1,0 +1,19 @@
+<table class="table">
+    <thead>
+        <tr>
+        <td><strong>Product</strong></td>
+        <td><strong>Quantity</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- <tr>
+            <td>{{ cart.id }}</td>
+            <td>{{ cart.sessionId }}</td>
+        </tr> -->
+       
+        <tr *ngFor="let cartItemNew of cart.cartItems">
+            <td>{{ cartItemNew.productName }}</td>
+            <td>{{ cartItemNew.quantity }}</td>
+        </tr>
+    </tbody>
+</table> 
